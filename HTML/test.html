@@ -8,36 +8,23 @@
   <meta property="og:description:" content="Patricia Moore is a dual-major CS and Engineering student from Long Island, NY. She really wants to transfer to Cornell University.">
   <meta name="description" content="Patricia Moore is a dual-major CS and Engineering student from Long Island, NY. She really wants to transfer to Cornell University.">
   <title>Patricia Moore</title>
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/test.css">
 </head>
-<style media="screen">
-
-*{
-  margin:0;
-  padding:0;
-  border:0;
-}
-
-
-
-</style>
-
 <body>
-  <div class="topContainer"></div>
-  <section class="parrallax">
-    <div class="parrallax-inner">
-      <div class="imageHolder">
-        <table>
-          <td><img class="myPicture" src="patricia.png" alt="Profile Picture of Patricia Wearing Google Glass"></td>
-          <td>
-            <h1 class="myName">Patricia Moore</h1>
-            <p class="aboutMe">Dual-major CS and Engineering student based on Long Island, NY. She really wants to transfer to Cornell University.</p>
-          </td>
-        </table>
-      </div>
+  <div class="container">
+  <section class="background">
+    <div class="content-wrapper">
+      <table>
+        <td><img class="myPicture" src="patricia.png" alt="Profile Picture of Patricia Wearing Google Glass"></td>
+        <td>
+          <h1 class="myName">Patricia Moore</h1>
+          <p class="aboutMe">Dual-major CS and Engineering student based on Long Island, NY. She really wants to transfer to Cornell University.</p>
+        </td>
+      </table>
     </div>
-    <hr>
-    <div class="cardContainer">
+  </section>
+  <section class="background">
+    <div class="content-wrapper">
       <h3>What have I been up to lately?</h3>
       <ul>
         <li>2021
@@ -66,11 +53,18 @@
       </ul>
     </div>
   </section>
-
-
-
-
-  <a href="contact_me.html"> Contact Me</a>
+  <section class="background">
+    <div class="cpmtemt-wrapper">
+      <form action="mailto:info@patriciamoore.com?subject=Contact Request" method="post" enctype="text/plain">
+        <label> Your Name:</label>
+        <input type="text" name="YourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+      </form>
+    </div>
+  </section>
+  </div>
 </body>
-
-</html>
