@@ -28,5 +28,49 @@
 }
 
 .cardContainer {
-  width: 100%;
+  text-align: center;
+  margin: auto;
+  width: 50%
+}
+
+.cardTitle{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
+
+body{
+  background-color: DarkSlateBlue;
+}
+
+h3{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
+
+h1{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
+a{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
+li{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
+
+label{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
+
+.parent {
+  border-style: solid;
+  border-color: AliceBlue;
+  border-radius: 30px;
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
 }
