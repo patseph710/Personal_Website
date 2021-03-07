@@ -55,17 +55,33 @@ a{
   font-family: Segoe UI;
   color: AliceBlue;
 }
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
 li{
   font-family: Segoe UI;
   color: AliceBlue;
+  margin: 0 0 10px 0;
 }
 
 label{
   font-family: Segoe UI;
   color: AliceBlue;
 }
+p{
+  font-family: Segoe UI;
+  color: AliceBlue;
+}
 
 .parent {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
   border-style: solid;
   border-color: AliceBlue;
   border-radius: 30px;
@@ -73,4 +89,8 @@ label{
 }
 .parent > ul {
   display: inline-block;
+}
+
+form{
+
 }
