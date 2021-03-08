@@ -12,11 +12,13 @@
 </head>
 
 <body>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#AboutMe">About Me</a>
-    <a href="#Activities">Activities</a>
-    <a href="#ContactMe">Contact Me</a>
+  <nav class="navigation">
+    <ul class="linkList">
+      <li class="navLink"><a class="navText" href="#home">Home</a></li>
+      <li class="navLink" ><a class="navText" href="#AboutMe">About Me</a></li>
+      <li class="navLink" ><a class="navText" href="#Activities">Activities</a></li>
+      <li class="navLink" ><a class="navText" href="#ContactMe">Contact Me</a></li>
+    </ul>
   </nav>
   <section id="home">
     <div class="topContainer">
@@ -52,28 +54,28 @@
       <h1>What have I been up to lately?</h1>
       <div class="parent">
         <h3>2021</h3>
-        <ul>
-          <li>"Judgement of Contingency Experiments in the Computerized World" - AMIA Informatics Summit 2022 (In Progress)</li>
-          <li>"Interconnetion Methods for AC-Coupled Low Gain Avalanch Diodes" - SUNY Undergraduate Research Conference 2021 (In Progress)</li>
-          <li> <a href="https://devpost.com/software/vaccine-finder-cfjmun"> Best Pandemic Innovation for "Vaccine Finder"</a> - Hack@CEWIT 2021</li>
-          <li>Brookhaven National Labs Internship Recipient - Summer 2021</li>
-          <li>President of Computer Science Club</li>
+        <ul class="cardList">
+          <li class="cardItem">"Judgement of Contingency Experiments in the Computerized World" - AMIA Informatics Summit 2022 (In Progress)</li>
+          <li class="cardItem">"Interconnetion Methods for AC-Coupled Low Gain Avalanch Diodes" - SUNY Undergraduate Research Conference 2021 (In Progress)</li>
+          <li class="cardItem"> <a class="cardItem"href="https://devpost.com/software/vaccine-finder-cfjmun"> Best Pandemic Innovation for "Vaccine Finder"</a> - Hack@CEWIT 2021</li>
+          <li class="cardItem">Brookhaven National Labs Internship Recipient - Summer 2021</li>
+          <li class="cardItem">President of Computer Science Club</li>
         </ul>
       </div>
       <br>
       <div class="parent">
         <h3>2020</h3>
-        <ul>
-          <li>Brookhaven National Labs Internship Recipient - Spring 2021</li>
+        <ul class="cardList">
+          <li class="cardItem">Brookhaven National Labs Internship Recipient - Spring 2021</li>
         </ul>
       </div>
       <br>
       <div class="parent">
         <h3>2019</h3>
-        <ul>
-          <li>"Free Operant Contingencies: A Program to Measure the Depressive Realism Effect" - SUNY Undergraduate Research Conference 2019</li>
-          <li>Recipient of Departmental Award for Achievements in Acadmic Research - Math & Computer Science Department 2019</li>
-          <li>Re-Established the Campus Computer Science Club Charter</li>
+        <ul class="cardList">
+          <li class="cardItem">"Free Operant Contingencies: A Program to Measure the Depressive Realism Effect" - SUNY Undergraduate Research Conference 2019</li>
+          <li class="cardItem">Recipient of Departmental Award for Achievements in Acadmic Research - Math & Computer Science Department 2019</li>
+          <li class="cardItem">Re-Established the Campus Computer Science Club Charter</li>
         </ul>
       </div>
   </section>
@@ -82,12 +84,14 @@
       <h1>Contact Me</h1>
       <div class="parent">
         <form action="mailto:info@patriciamoore.com?subject=Contact Request" method="post" enctype="text/plain">
-          <label> Your Name:</label>
-          <input type="text" name="YourName" value=""><br>
+          <label> First Name:</label>
+          <input type="text" name="First Name" placeholder="First name..."><br>
+          <label> Lact Name:</label>
+          <input type="text" name="Last Name" placeholder="Last name..."><br>
           <label>Your Email:</label>
-          <input type="email" name="yourEmail" value=""><br>
+          <input type="email" name="yourEmail" placeholder="Email..."><br>
           <label>Your Message:</label><br>
-          <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+          <textarea name="yourMessage" rows="10" cols="30" placeholder="Your message..."></textarea><br>
           <input type="submit" name="">
         </form>
       </div>
