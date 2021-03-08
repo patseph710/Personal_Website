@@ -31,6 +31,7 @@
   text-align: center;
   margin: auto;
   width: 50%
+
 }
 
 .cardTitle{
@@ -40,6 +41,7 @@
 
 body{
   background-color: DarkSlateBlue;
+  margin-bottom: 50px;
 }
 
 h3{
@@ -91,6 +93,14 @@ p{
   display: inline-block;
 }
 
-form{
+input{
+  margin: 0 0 10px 0;
+}
+textarea{
+  resize: none;
+  margin: 0 0 10px 0;
+}
 
+label{
+margin: 0 0 10px 0;
 }
