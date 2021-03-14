@@ -82,13 +82,13 @@ nav {
 }
 
 .projects{
-  max-width: 40vh;
+  max-width: 17vw;
   height: auto;
 }
 
 .projectTable{
   border-spacing: 5vh;
-  border-collapse: separate;
+  border-collapse: s
 }
 
 .cardContainer {
