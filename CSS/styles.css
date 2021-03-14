@@ -58,7 +58,7 @@ nav {
 }
 
 .navLink {
-  font-size: 30px;
+  font-size: 1vw;
   margin: 0 0 50px 0;
 }
 
@@ -81,13 +81,23 @@ nav {
   height: auto;
 }
 
+.projects{
+  max-width: 40vh;
+  height: auto;
+}
+
+.projectTable{
+  border-spacing: 5vh;
+  border-collapse: separate;
+}
+
 .cardContainer {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
 .cardTitle {
@@ -104,7 +114,7 @@ body {
 h3 {
   font-family: Segoe UI;
   color: AliceBlue;
-  font-size: 30px;
+  font-size: 1vw;
 }
 
 .cardList {
@@ -116,23 +126,29 @@ h3 {
 
 .cardItem {
   text-decoration: none;
-  font-size: 20px;
+  font-size: .7vw;
   margin: 0 0 20px 0;
 }
 
 a {
   font-family: Segoe UI;
   color: AliceBlue;
-  font-size: 30px;
+  font-size: 1vw;
 }
 a:hover{
   cursor: pointer;
 }
 
+h2{
+  font-family: Segoe UI;
+  color: AliceBlue;
+  font-size: 2vw;
+}
+
 h1 {
   font-family: Segoe UI;
   color: AliceBlue;
-  font-size: 70px;
+  font-size: 3vw;
 }
 
 li {
@@ -141,7 +157,7 @@ li {
 }
 
 label {
-  font-size: 20px;
+  font-size:1.5vw;
   font-family: Segoe UI;
   color: AliceBlue;
   padding-right: 10px;
@@ -150,7 +166,7 @@ label {
 p {
   font-family: Segoe UI;
   color: AliceBlue;
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 .parent {
@@ -162,7 +178,7 @@ p {
   border-radius: 30px;
   text-align: center;
 }
-
+s
 .parent>ul {
   display: inline-block;
 }
@@ -172,7 +188,7 @@ table{
   margin-right: auto;
 }
 td{
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 input[type=text], select, textarea {
@@ -193,6 +209,11 @@ input[type=email], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+textarea{
+  font-family: Segoe UI;
+  font-size: 1vw;
 }
 
 input[type=submit] {
