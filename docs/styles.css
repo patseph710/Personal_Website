@@ -43,7 +43,7 @@ nav {
   height: 100vh;
   padding: 2em;
   background: #333;
-  color: AliceBlue;
+  color: #23123f;
   display: block;
 }
 
@@ -68,12 +68,12 @@ nav {
 
 .myName {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
 }
 
 .aboutMe {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
 }
 
 .myPicture {
@@ -102,18 +102,18 @@ nav {
 
 .cardTitle {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
 }
 
 body {
-  background-color: DarkSlateBlue;
+  background-color: #eee8f8;
   margin-bottom: 50px;
   padding-left: var(--nav-width);
 }
 
 h3 {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
   font-size: 1vw;
 }
 
@@ -132,7 +132,7 @@ h3 {
 
 a {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
   font-size: 1vw;
 }
 a:hover{
@@ -141,31 +141,31 @@ a:hover{
 
 h2{
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
   font-size: 2vw;
 }
 
 h1 {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
   font-size: 3vw;
 }
 
 li {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
 }
 
 label {
   font-size:1.5vw;
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
   padding-right: 10px;
 }
 
 p {
   font-family: Segoe UI;
-  color: AliceBlue;
+  color: #23123f;
   font-size: 1vw;
 }
 
@@ -174,7 +174,7 @@ p {
   margin: 0 auto;
   padding: 20px;
   border-style: solid;
-  border-color: AliceBlue;
+  border-color: #23123f;
   border-radius: 30px;
   text-align: center;
 }
